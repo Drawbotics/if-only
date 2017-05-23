@@ -6,6 +6,11 @@
   "repository": "https://github.com/Drawbotics/if-only.git",
   "author": "Lorenzo Ruiz <lorenzo@drawbotics.com>",
   "license": "MIT",
+  "scripts": {
+    "clean": "rimraf lib/",
+    "build:commonjs": "babel src --out-dir lib/",
+    "build": "npm run clean && npm run build:commonjs"
+  },
   "peerDependencies": {
     "react": "^15.0.0-0",
     "react-dom": "^15.0.0-0"
@@ -14,7 +19,8 @@
     "babel-cli": "^6.24.1",
     "babel-core": "^6.24.1",
     "babel-preset-latest": "^6.24.1",
-    "babel-preset-react": "^6.24.1"
+    "babel-preset-react": "^6.24.1",
+    "rimraf": "^2.6.1"
   },
   "dependencies": {
     "react": "^15.5.4",
