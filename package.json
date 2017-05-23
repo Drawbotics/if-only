@@ -2,7 +2,7 @@
   "name": "if-only",
   "version": "1.0.0",
   "description": "A tiny react component that only renders children if a condition is met.",
-  "main": "index.js",
+  "main": "lib/If.js",
   "repository": "https://github.com/Drawbotics/if-only.git",
   "author": "Lorenzo Ruiz <lorenzo@drawbotics.com>",
   "license": "MIT",
