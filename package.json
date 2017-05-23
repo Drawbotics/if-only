@@ -9,7 +9,8 @@
   "scripts": {
     "clean": "rimraf lib/",
     "build:commonjs": "babel src --out-dir lib/",
-    "build": "npm run clean && npm run build:commonjs"
+    "build": "npm run clean && npm run build:commonjs",
+    "prepublish": "npm run build"
   },
   "peerDependencies": {
     "react": "^15.0.0-0",
