@@ -1,0 +1,9 @@
+# Node stuff
+node_modules
+*.log
+
+# Compiled stuff
+lib/
+
+# Misc stuff
+.DS_Store

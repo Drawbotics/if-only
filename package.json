@@ -1,0 +1,23 @@
+{
+  "name": "if-only",
+  "version": "1.0.0",
+  "description": "A tiny react component that only renders children if a condition if met.",
+  "main": "index.js",
+  "repository": "https://github.com/Drawbotics/if-only.git",
+  "author": "Lorenzo Ruiz <lorenzo@drawbotics.com>",
+  "license": "MIT",
+  "peerDependencies": {
+    "react": "^15.0.0-0",
+    "react-dom": "^15.0.0-0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-core": "^6.24.1",
+    "babel-preset-latest": "^6.24.1",
+    "babel-preset-react": "^6.24.1"
+  },
+  "dependencies": {
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4"
+  }
+}
