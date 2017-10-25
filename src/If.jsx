@@ -3,8 +3,8 @@ import React from 'react';
 
 const If = ({
   cond,
-  inline,
   children,
+  inline,
   style,
   className,
   component,
@@ -14,6 +14,12 @@ const If = ({
   if ( ! cond) {
     return null;
   }
+
+  if ( ! className && ! style && ! component && ! inline) {
+    return children;
+  }
+
+  console.warn('Using className, style, component or inline props in If component is deprecated. In future versions, the If component would only return the children.');
 
   if (component) {
     return React.createElement(component, {
